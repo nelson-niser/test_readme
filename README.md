@@ -7,7 +7,7 @@ $(cat /home/nelsonksh/cardano-src/testnet-wallet-02/payment.addr)
 ```
 
 ## Build an address
-[Creating keys and addresses](https://developers.cardano.org/docs/stake-pool-course/handbook/keys-addresses/)
+Link to guide: [Creating keys and addresses](https://developers.cardano.org/docs/stake-pool-course/handbook/keys-addresses/)
 
 ## Making a transaction
 **Build a Transaction:**
