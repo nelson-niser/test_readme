@@ -54,5 +54,5 @@ Inside it should be
 ```
 Then finally generate policy id
 ```Bash
-cardano-cli transaction policyid --script-file my-first-policy.script
+cardano-cli transaction policyid --script-file my-policy.script
 ```
