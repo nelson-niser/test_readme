@@ -1,5 +1,5 @@
 # Links to resources
-[Koios](https://www.koios.rest/)
+* [Koios](https://www.koios.rest/)
 
 
 # cardano-cli commands
