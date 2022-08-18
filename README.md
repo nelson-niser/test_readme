@@ -56,3 +56,30 @@ Then finally generate policy id
 ```Bash
 cardano-cli transaction policyid --script-file my-policy.script
 ```
+
+## Including metadata
+Create a `metadata.json` file
+```json
+{
+    "1337": "greetings from ppbl summer 2022"
+}
+```
+
+
+## Build the minting transaction along with metadata
+```Bash
+cardano-cli transaction build \
+--babbage-era \
+--testnet-magic 1097911063 \
+--tx-in $TXIN \
+--tx-out $MINTER+"1500000 + 25 $POLICYID.$TOKENNAME1 + 25 $POLICYID.$TOKENNAME2" \
+--mint "25 $POLICYID.$TOKENNAME1 + 25 $POLICYID.$TOKENNAME2" \
+--mint-script-file $POLICYSCRIPT \
+--change-address $MINTER \
+--metadata-json-file $METADATA_JSON_FILE \
+--protocol-params-file protocol.json \
+--out-file mint-native-assets.raw
+```
+
+
+
