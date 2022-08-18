@@ -34,3 +34,17 @@ cardano-cli transaction submit \
 --testnet-magic 1097911063 \
 --tx-file tx.signed
 ```
+
+
+## Minting token
+**Create policy script**
+```Bash
+touch my-policy.script
+```
+Inside it should be
+```text
+{
+    "keyHash": "22117fbd0f86a213ae4f4d824cd0d38eea29e49764ae22f5f50ba3d3",
+    "type": "sig"
+}
+```
