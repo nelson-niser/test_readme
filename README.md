@@ -1,5 +1,10 @@
 # cardano-cli commands
 
+## Fetch protocol.json
+```Bash
+cardano-cli query protocol-parameters --testnet-magic 1097911063 --out-file protocol.json
+```
+
 ## My wallet addresses
 ```Bash
 $(cat /home/nelsonksh/cardano-src/testnet-wallet-01/payment.addr)
@@ -82,4 +87,7 @@ cardano-cli transaction build \
 ```
 
 
-
+## Generate keyHash of an address
+```Bash
+cardano-cli address key-hash --payment-verification-key-file payment.vkey
+```
