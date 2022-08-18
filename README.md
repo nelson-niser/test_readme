@@ -15,9 +15,9 @@ $(cat /home/nelsonksh/cardano-src/testnet-wallet-02/payment.addr)
 cardano-cli transaction build \
 --babbage-era \
 --testnet-magic 1097911063 \
---tx-in <UTXO> \
---tx-out <Testnet Address>+<Number of Lovelace> \
---change-address <Testnet Address> \
+--tx-in $TXIN \
+--tx-out $ADDR+<Number of Lovelace> \
+--change-address $SENDER \
 --out-file tx.draft
 ```
 **Sign a Transaction:**
