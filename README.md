@@ -48,7 +48,7 @@ cardano-cli address key-hash --payment-verification-key-file payment.vkey
 Inside it should be
 ```text
 {
-    "keyHash": "22117fbd0f86a213ae4f4d824cd0d38eea29e49764ae22f5f50ba3d3",
+    "keyHash": "<generated hashKey>",
     "type": "sig"
 }
 ```
