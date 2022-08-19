@@ -6,6 +6,7 @@
 * [Cardano Improvement Proposals](https://cips.cardano.org/)
 
 ## additional resources
+* [Project Catalyst - Funded Projects Reporting](https://docs.google.com/spreadsheets/u/0/d/1bfnWFa94Y7Zj0G7dtpo9W1nAYGovJbswipxiHT4UE3g/htmlview#)
 * [HeadlessUI](https://headlessui.com/)
 
 # cardano-cli commands
