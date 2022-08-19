@@ -3,6 +3,7 @@
 * [Koios](https://www.koios.rest/)
 * [Mesh](https://mesh.martify.io/)
 * [Testnets faucet](https://docs.cardano.org/cardano-testnet/tools/faucet)
+* [Cardano Improvement Proposals](https://cips.cardano.org/)
 
 ## additional resources
 * [HeadlessUI](https://headlessui.com/)
@@ -78,6 +79,7 @@ Create a `metadata.json` file
     "1337": "greetings from ppbl summer 2022"
 }
 ```
+* [CIP 25](https://cips.cardano.org/cips/cip25/) for NFT
 
 
 ## Build the minting transaction along with metadata
