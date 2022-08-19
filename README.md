@@ -1,6 +1,8 @@
 # Links to resources
+* [Catalyst](https://cardano.ideascale.com/)
 * [Koios](https://www.koios.rest/)
 * [Mesh](https://mesh.martify.io/)
+* [Testnets faucet](https://docs.cardano.org/cardano-testnet/tools/faucet)
 
 ## additional resources
 * [HeadlessUI](https://headlessui.com/)
