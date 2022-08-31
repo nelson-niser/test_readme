@@ -4,8 +4,12 @@
 * [Mesh](https://mesh.martify.io/)
 * [Testnets faucet](https://docs.cardano.org/cardano-testnet/tools/faucet)
 * [Cardano Improvement Proposals](https://cips.cardano.org/)
+* [Cardano GraphQL Voyager](https://input-output-hk.github.io/cardano-graphql/)
+* [Preprod GraphQL Playground](http://graphql-api-iohk-preprod.gimbalabs.io/)
 
 ## additional resources
+* [ESSENTIAL CARDANO](https://www.essentialcardano.io/)
+* [Cardano World Repository](https://book.world.dev.cardano.org/)
 * [Project Catalyst - Funded Projects Reporting](https://docs.google.com/spreadsheets/u/0/d/1bfnWFa94Y7Zj0G7dtpo9W1nAYGovJbswipxiHT4UE3g/htmlview#)
 * [HeadlessUI](https://headlessui.com/)
 
